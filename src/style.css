@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.card-largura {
+    max-width: 18rem;
+}
+
+.imagem-carrossel-um,
+.imagem-carrossel-dois{
+    object-fit: cover; /* img cobre toda a área do container sem distorcer  */
+    height: 400px;
+}
+
+.imagem-carrossel-um {
+    object-position: 0 80%; /* posição da img horizontal-vertical */ 
+}
+
+.fonte-titulo {
+    font-family: 'Pacifico', cursive;
+}
+
+.texto-cor-especial {
+    color: darkred !important;
+}
+
+.botao-cor-especial {
+    background-color: darkred;
+    color: #fff;
+}
+
+.borda-cor-especial {
+    border-color: darkred;
+}
+
+.card-posicao-imagem {
+    object-fit: cover;
+    height: 200px;
+}
