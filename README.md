@@ -14,4 +14,4 @@ Desenvolver uma Landing Page responsiva com Bootstrap, contendo uma navbar com m
  </div>
  
  ### :link: Site no Ar
-  <a href="https://elaineads-landing-page.vercel.app/" target="_blank"><img src="https://img.shields.io/website-up-down-green-red/http/monip.org.svg"></a>
+ https://elaineads-landing-page.vercel.app/
