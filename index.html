@@ -5,21 +5,26 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>fruta e fruto</title>
+
+  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
   <link rel="stylesheet" type="text/css" href="src/style.css">
 </head>
 
 <body>
 
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> 
+      <!-- fixed-top: navbar fixa no topo ao rolar a página -->
       <a class="navbar-brand fonte-titulo texto-cor-especial" href="#">fruta & fruto</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+      <!-- justify-content-end: conteúdo alinhado à direita -->
         <ul class="navbar-nav">
           <li><a class="nav-item nav-link active" href="#">início<span class="sr-only">(current)</span></a></li>
           <li><a class="nav-item nav-link" href="#">receitas</a></li>
@@ -43,6 +48,7 @@
             <img class="d-block w-100 imagem-carrossel-um" src="src/img/carrossel-img1.jpg" alt="First slide">
             <div class="carousel-caption d-none d-md-block h-50">
               <h1 class="fonte-titulo display-4">Reaproveite melhor os alimentos!</h1>
+              <!-- display-4: tamanho da fonte -->
             </div>
           </div>
           <div class="carousel-item">
@@ -65,14 +71,19 @@
 
     <section id="titulo">
       <h2 class="text-center fonte-titulo texto-cor-especial pt-5">Receitas para economizar e ganhar saúde</h2>
+      <!-- pt-5: padding top -->
       <p class="text-center text-secondary pb-5">Nossas receitas ajudam você a aproveitar melhor os alimentos,
         economizar, ganhar tempo e praticidade</p>
+      <!-- pb-5: padding bottom -->
     </section>
 
 
     <section class="container-fluid bg-light" id="receitas">
       <div class="row justify-content-center">
         <article class="card borda-cor-especial card-largura p-0 m-5 col-12 col-md-4">
+        <!-- m-5: margin -->
+        <!-- col-12: grid extra pequeno (um item ocupa todas as colunas) -->
+        <!-- col-md-4: grid médio (720px) (um item ocupa 4 colunas)-->
           <img src="src/img/receita-abacate.jpg" class="card-img-top card-posicao-imagem"
             alt="tigela com salada de abacate, vista superior">
           <div class="card-body">
@@ -136,7 +147,9 @@
   </main>
 
   <footer class="bg-secondary p-3">
+  <!-- bg-secondary: background color padrão -->
     <p class="text-light m-0 text-center">contato: <a class="text-light" href="mailto:email@frutafruto.com.br">email@frutafruto.com.br</a></p>
+    <!-- text-center: texto alinhado ao centro -->
   </footer>
 
   <!-- Modal -->
@@ -174,6 +187,7 @@
     </div>
   </div>
 
+  <!-- Bootstrap Script -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -183,7 +197,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-  <script src=""></script>
 
 </body>
 
