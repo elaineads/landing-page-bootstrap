@@ -1,6 +1,7 @@
-# :computer: Landing Page Responsiva com Bootstrap
+# :computer: Projeto: fruta & fruto
 ### :page_with_curl: Proposta
 Desenvolver uma Landing Page responsiva com Bootstrap, contendo uma navbar com modal e formulário de contato, carrossel de imagens, cards alinhados e rodapé.
+
 > :pushpin: Projeto desenvolvido no decorrer do curso "Bootstrap 4: criando uma landing page responsiva" da Alura. 
 
 ### :fountain_pen: Protótipo
@@ -14,4 +15,4 @@ Desenvolver uma Landing Page responsiva com Bootstrap, contendo uma navbar com m
  </div>
  
  ### :link: Site no Ar
- https://elaineads-landing-page.vercel.app/
+ https://elaineads-fruta-e-fruto.vercel.app/
